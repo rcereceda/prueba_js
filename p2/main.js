@@ -12,5 +12,5 @@ var user2 = copiarObjeto(user1);
 
 user2.nombre = "Jorge";
 
-console.log("Rodrigo: " + user1.arr);
-console.log("Jorge: " + user2.arr);
+console.log("Rodrigo: " + user1.arr[0]);
+console.log("Jorge: " + user2.arr[0]);
